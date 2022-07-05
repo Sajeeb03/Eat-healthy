@@ -8,6 +8,11 @@ body {
 
 h1 {
     font-size: 50px;
+
+}
+
+.gap {
+    margin-bottom: 15%;
 }
 
 .button {
@@ -15,8 +20,11 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     text-decoration: none;
 
+
     padding: 10px 40px;
     border-radius: 10px;
+
+
     color: white;
 }
 
@@ -51,4 +59,17 @@ h1 {
 .banner {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+
+#allign {
+    text-align: center;
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(141, 133, 133);
+
 }
